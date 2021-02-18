@@ -1,0 +1,216 @@
+@mixin searchbox {
+  #search {
+    width: 400px;
+    height: 50px;
+    background: #3b8bc0;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    margin: 0 auto;
+    top: 550px;
+    transition: all 0.3s;
+  }
+  #search img {
+    height: 60%;
+    top: 20%;
+    position: absolute;
+    right: 20px;
+    -webkit-filter: invert(1) brightness(10);
+    transition: all 0.2s;
+  }
+  #search img:hover {
+    -webkit-filter: invert(1);
+  }
+  #search input {
+    height: 100%;
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
+    padding-left: 20px;
+    box-sizing: border-box;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  #search input:focus {
+    outline: none;
+    background: #a6c7dd;
+  }
+  #search:hover {
+    background: #237db9;
+  }
+  #search.open {
+    width: 500px;
+    color: #fff;
+  }
+}
+
+@mixin store-2 {
+  .container2 {
+    display: grid;
+    // grid-template-columns:  repeat(1, 2fr 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    margin-bottom: 000px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 200px;
+    font-family: "Rubik", sans-serif;
+
+    .iem1 {
+      border: 1px solid rgba(0, 78, 0, 0.205);
+
+      grid-row: row 4;
+      display: grid;
+
+      // grid-gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      .pix {
+        grid-column: 1/5;
+        grid-row: 1/4;
+        img {
+          width: 100%;
+        }
+      }
+
+      .info1 {
+        border-bottom: 1px solid rgba(0, 78, 0, 0.205);
+        border-right: 1px solid rgba(0, 78, 0, 0.205);
+        text-align: center;
+        vertical-align: middle;
+        line-height: 5vh;
+      }
+      .info2 {
+        border-right: none;
+      }
+      .detail1 {
+        padding: 25px 10px;
+        min-height: 10vh;
+        grid-column: 1/5;
+        border-bottom: 1px solid rgba(0, 78, 0, 0.205);
+
+        .para {
+          h6 {
+            font-size: 19px;
+          }
+          .space {
+            margin: 5px 0 25px 0;
+          }
+          p {
+            font-size: 14px;
+
+            margin: 5px 0px;
+          }
+        }
+      }
+
+      .mny {
+        height: 5vh;
+        grid-column: 1/4;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 5vh;
+        .mn1 {
+          display: grid;
+          grid-template-columns: 4fr 1fr 1fr;
+          border-bottom: 1px solid rgba(0, 78, 0, 0.205);
+          .money {
+            height: 5vh;
+            border-right: 1px solid rgba(0, 78, 0, 0.205);
+
+            a {
+              color: rgb(19, 19, 19);
+              transition: 0.4s;
+
+              &:hover {
+                font-size: 18px;
+
+                color: red;
+              }
+            }
+          }
+          .moneyi {
+            border-right: none;
+          }
+        }
+      }
+
+      .see {
+        transition: 0.5s;
+        grid-column: 1/5;
+        height: 6vh;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 6vh;
+        background-color: whitesmoke;
+        cursor: pointer;
+        h5 {
+          a {
+            text-decoration: none;
+            margin-right: 4px;
+          }
+          i {
+            font-size: 14px;
+          }
+        }
+        &:hover {
+          background-color: #8585ff;
+          border: none;
+          color: #fff;
+          a {
+            color: #fff;
+            transition: 0.4s;
+
+            &:hover {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    .container2 {
+      display: block;
+      .iem1 {
+        margin-bottom: 40px;
+      }
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .container2 {
+      font-size: 12px;
+      width: 70%;
+      .iem {
+        .iem1 {
+          .info1 {
+            font-size: 12px;
+          }
+
+          .detail1 .para p {
+            font-size: 12px;
+          }
+          .detail1 .para h6 {
+            font-size: 15px;
+          }
+          .see i {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1230px) {
+    .container2 {
+      width: 85%;
+      grid-template-columns: 1fr 1fr;
+      .iem1 {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

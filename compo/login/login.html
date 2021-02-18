@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login/Signup</title>
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <div class="greet">
+      <p>Welcom Back !</p>
+    </div>
+    <div class="cont">
+      <div class="infoo1">
+        <form>
+          <input
+            checked
+            id="signin"
+            name="action"
+            type="radio"
+            value="signin"
+          />
+          <label for="signin">Sign in</label>
+          <input id="signup" name="action" type="radio" value="signup" />
+          <label for="signup">Sign up</label>
+          <input id="reset" name="action" type="radio" value="reset" />
+          <label for="reset">Reset</label>
+          <div id="wrapper">
+            <div id="arrow"></div>
+            <input id="email" placeholder="Email" type="text" />
+            <input id="pass" placeholder="Password" type="password" />
+            <input id="repass" placeholder="Repeat password" type="password" />
+          </div>
+          <button type="submit">
+            <span>
+              Reset password
+              <br />
+              Sign in
+              <br />
+              Sign up
+            </span>
+          </button>
+        </form>
+      </div>
+
+      <div class="infoo2">
+        <div class="line">
+          <img
+            src="https://img.icons8.com/dusk/64/000000/home-automation.png"
+          />
+          <div class="sec2">
+            <p class="h1">Don’t miss a thing</p>
+            <p class="parag">
+              Save your dream homes and stay updated on your favourite searches,
+              across any device.
+            </p>
+          </div>
+        </div>
+        <div class="line">
+          <img src="https://img.icons8.com/cotton/64/000000/hearts--v3.png" />
+          <div class="sec2">
+            <p class="h1">Don’t miss a thing</p>
+            <p class="parag">
+              Save your dream homes and stay updated on your favourite searches,
+              across any device.
+            </p>
+          </div>
+        </div>
+        <div class="line">
+          <img
+            src="data:image/png;base64,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"
+          />
+          <div class="sec2">
+            <p class="h1">Don’t miss a thing</p>
+            <p class="parag">
+              Save your dream homes and stay updated on your favourite searches,
+              across any device.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

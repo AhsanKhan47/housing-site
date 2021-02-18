@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Housing Site</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="housee">
+          <a href="#"
+            ><img src="https://img.icons8.com/plasticine/100/000000/home-page.png"/>
+          </a>
+        </div>
+
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Our Projects</a></li>
+        </ul>
+        <div class="btn">
+          <button><a href="./compo/login/"> Login/Signup </a></button>
+        </div>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+
+      <div class="heading">
+        <h1>Buying Your First Home</h1>
+        <h1>Residential and commercial</h1>
+        <p>
+          Invest in Commercial and Residential spacing with amzaing rates.
+        </p>
+      </div>
+      <form id="search">
+        <input id="field" onfocus="clicked()" onblur="normal()" type="text" />
+        
+        <img onclick="clicked()" id="icon"   src="https://img.icons8.com/ios-filled/50/000000/search.png"/>
+      </form>
+
+
+
+    </header>
+
+    <div class="hover " data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
+      <div class="box box1">
+        <div class="cnt">
+          <i class="fa fa-home" aria-hidden="true"></i>
+          <h6>To New Comers</h6>
+          <p>in London</p>
+          <a href="#">View more</a>
+        </div>
+      </div>
+      <div class="box boxbb">
+        <div class="cnt">
+          <i class="fa fa-building-o" aria-hidden="true"></i>
+          <h6>To New Comers</h6>
+          <p>in London</p>
+          <a href="#">View more</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="cnt">
+          <i class="fa fa-bus" aria-hidden="true"></i>
+
+          <h6>New Comers</h6>
+          <p>in London</p>
+          <a href="#">View more</a>
+        </div>
+      </div>
+      <div class="box boxb">
+        <div class="cnt">
+          <i class="fa fa-address-card-o" aria-hidden="true"></i>
+          <h6>Fresh Comers</h6>
+          <p>in London</p>
+          <a href="#">View more</a>
+        </div>
+      </div>
+    </div>
+    <div class="title" data-aos="zoom-ou-up" data-aos-duration="700">
+      <div class="logo" >
+        <svg
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 437.5 246.3"
+        >
+          <style>
+            .st0 {
+              fill: #29abe2;
+            }
+          </style>
+          <path
+            d="M40.3 138.2l-5.7 8.4L0 154.3h44.9l54-76.5 78.6 76.6-76.6-107.2zM367.4 138l-14.6-18.2V61.3l-33.6-18.9 1.5 35.7L261.3 0l-81.2 153.2.7 1.1 80.4-126.2 97.6 126.2h78.7z"
+          />
+          <path
+            class="st0"
+            d="M239.9 99l-.2 21 27.2.2.3-37c-11.2.2-24.9 6.5-27.3 15.8M270.4 83.3l-.3 36.9 27.2.2.2-21c-1.6-8.8-14.3-15-27.1-16.1M239.6 133.8l-.1 20.9 27.2.3.2-28.7-27.2-.3zM269.9 155l27.2.2.1-20.8.1-7.8-27.2-.3zM84.1 114.2l-.1 15.2 19.9.2.2-26.8c-8.2.1-18.3 4.6-20 11.4M106.5 102.9l-.2 26.7 19.9.2.1-15.2c-1.1-6.5-10.4-11-19.8-11.7M83.9 139.4l-.1 15.1 19.9.2.2-20.8-20-.2zM106.1 154.7l19.9.2.2-15.1v-5.7l-20-.2zM172.8 82.4L105.5 50l69.3 93.5zM176.8 83.2l1 61.2L255.4 3.6z"
+          />
+          <path
+            d="M47.8 241.3h326v5h-326zM72.6 175.2c-.7.5-1.4 1.1-2 1.8-.3.3-.9 1-1.9 2.1-.8-.8-1.5-1.3-2.2-1.3-1.5 0-3 1.6-4.4 4.9-.9 2.4-1.8 4.9-2.6 7.3-1.5 3.3-3 6.5-4.5 9.8-2 4.1-3 7.5-3 10.2 0 1.4.2 2.6.7 3.7 1.8-1.1 3.4-2.9 4.6-5.4.5-.9 1.4-3.2 2.7-6.7.6-1.6 1.3-3.2 2.3-4.9.8-1.4 1.8-3 3-4.7.9-1.3 1.8-2.7 2.7-4 1.2-1.7 2.3-3.2 3.3-4.3.4 1.6.6 3.2.8 4.7.1 1.5.2 3.9.2 7.2v1.7c0 2.6.1 4.9.2 7 .1 2.1.4 4 .8 5.8 2-.2 3.7-1.4 5.3-3.4.9-1.2 2.2-3 4-5.6 1.5-1.7 3.1-3.7 4.7-5.9 1.5-2.1 3-4.2 4.6-6.3 0 2.1-.3 4.5-1 7.4-.7 2.9-1.3 5.7-2 8.5-.6 2.8-1 5.3-1 7.5 0 1.2.1 2.4.3 3.5.2 1.1.5 2.2 1 3.3 1.6-1.6 2.8-4.7 3.7-9.3.5-3.5 1.1-7.1 1.6-10.6.5-2.7 1.1-5.4 1.7-8.3.6-2.9.9-5.5.9-7.8 0-1.8-.2-3.5-.5-5.1-1.7.3-3.3 1.6-5 3.9-1.2 1.9-2.4 3.9-3.6 5.8-2.6 4-4.3 6.5-5 7.4-2.1 2.7-4.2 4.8-6.3 6.1 0-4.9 0-8.6-.1-11.2 0-2.5-.2-5.2-.6-8.1-.1-1.2-.4-2.3-.8-3.3-.5-1.4-1.2-2.2-1.9-2.5l-.7-.9z"
+          />
+          <path
+            class="st0"
+            d="M113.2 186.6c3.2-3.1 6.5-4.7 10-4.7 1.2 0 2.4.2 3.5.6 1.1.4 2.3.9 3.4 1.7 1.9 1.3 3.4 2.9 4.5 4.8s1.6 3.8 1.6 5.9c0 .5 0 1-.1 1.6-.5 3.2-3 6.2-7.5 8.7-4.1 2.3-8 3.5-11.6 3.5-3.4 0-6-.6-7.8-1.9-1.8-1.3-2.7-3.2-2.7-5.6 0-1.3.2-2.6.6-4 1.1-4.2 3.2-7.7 6.1-10.6zm10-8.8c-3.3 0-6.5 1.1-9.6 3.2-2.8 1.9-5.3 4.8-7.6 8.5-2.5 4.1-3.8 8-3.8 11.5 0 1.7.3 3.3 1 4.7.6 1.4 1.7 2.6 3 3.5 1.4.9 2.8 1.6 4.2 2 1.4.4 2.9.6 4.4.6 2.5 0 5.4-.5 8.6-1.6 2.3-.8 5-2 8-3.5 2.5-1.3 4.4-3 5.8-5.3 1.2-2.1 1.8-4.5 1.8-7.1 0-2.7-.7-5.3-2-7.8s-3.2-4.6-5.6-6.1c-2.5-1.8-5.3-2.6-8.2-2.6z"
+          />
+          <path
+            d="M147.9 200c-1.9 3.9-2.9 7.1-2.9 9.7 0 1 .1 1.9.3 2.8 1.9-.5 3.4-2.7 4.4-6.6 1-3.8 2.6-6.2 4.8-7 1.5-.5 3.2-1 5.1-1.3 1.9-.3 3.9-.5 5.9-.5 1.9 0 3.5.1 4.9.4-.8 2.4-1.7 4.7-2.5 7-1 2.9-1.5 5.3-1.5 7.2.3 0 .7.1 1.3.3.3.1.7.2 1.3.3 1-2.2 2-4.4 3-6.7 1.2-2.7 2.1-4.9 2.7-6.6.8-2.4 1.4-4.6 1.6-6.7 0-.1.6-2.5 1.7-7.2.4-1.7.6-3.1.6-4.3 0-.9-.1-1.7-.3-2.6h-2.6c-.3 2.1-.6 4.2-.9 6.4-.9 5.1-2.6 7.9-5 8.4-.8.2-3.7.5-8.7 1.1-2.1.3-3.8.5-5.2.8-.1-.4-.1-.9-.1-1.3 0-1.5.7-3.6 2.1-6.4 1.4-2.7 2.1-4.8 2.1-6.1 0-.5 0-1-.1-1.5-.1-.4-.3-.9-.5-1.4-2.4 1-4.4 4.1-6.3 9.5-1.3 3.9-2.1 6.1-2.4 6.7-1 1.9-1.9 3.8-2.8 5.6z"
+          />
+          <path
+            class="st0"
+            d="M199.7 176.4c-1.7 2.3-3.2 4.9-4.8 7.9-1.2 2.3-2.5 5.3-3.9 8.7-.9 2.3-2 5.1-3.2 8.5-1.1 1.9-2.2 3.9-3.3 5.8-.8 1.6-1.2 2.9-1.2 3.8 0 .5.1.9.4 1.3.3.4.8.6 1.4.7 1.5.2 2.8-1 4.1-3.8.6-1.3 1.2-3.2 1.9-5.8.6-2.2 1.9-5.1 3.8-8.7 2.5-4.7 4.1-7.5 4.6-8.7 1.5-3.3 2.2-6.3 2.2-9h-1.3l-.7-.7zm6.6 8.4c.7 2.2 1.3 4.3 2 6.4.6 2.1 1.3 4.3 2 6.4-4.9 1.1-7.6 1.7-8.1 1.8-3 .5-5.8.8-8.4.8 0 1.3.4 2.2 1.3 2.8.8.5 1.9.7 3.3.7 1 0 2.2-.1 3.8-.4 1.6-.3 3.6-.7 6.1-1.2h.4c2.1 0 3.3 1.4 3.7 4.2.2 1.5.4 3.7.5 6.7.6-.1 1.5-.2 2.5-.4.5-.1 1-.1 1.5-.2 0-.7-.3-2.5-.9-5.3-.3-1.2-.4-2.2-.4-3 0-1.6 1-2.8 2.9-3.6 1.7-.5 3.3-1 5-1.6-.4-.9-.9-1.6-1.4-1.9-.5-.4-1.1-.5-1.7-.5-.3 0-1 .1-2.2.3-.5.1-.9.1-1.3.1-.6 0-1.1-.1-1.5-.4-.4-.3-.8-.8-1.2-1.5-.8-1.7-1.5-3.6-2.2-5.8-.6-2.2-1.3-4.3-1.8-6.4-1.3-4.3-2-6.6-2.1-6.8-1.3-3.3-2.6-4.9-3.9-4.7-.8.1-1.3.3-1.6.6-.3.3-.4.7-.4 1.3 0 .5.2 1.2.5 2 .4.8.9 1.9 1.5 3.1.8 2.2 1.5 4.4 2.1 6.5z"
+          />
+          <path
+            d="M250 175.2c-.7.5-1.4 1.1-2 1.8-.3.3-.9 1-1.9 2.1-.8-.8-1.5-1.3-2.2-1.3-1.5 0-3 1.6-4.4 4.9-.9 2.4-1.8 4.9-2.6 7.3-1.5 3.3-3 6.5-4.5 9.8-1.9 4.2-2.8 7.6-2.8 10.3 0 1.4.2 2.6.7 3.7 1.8-1.1 3.4-2.9 4.6-5.4.5-.9 1.4-3.2 2.7-6.7.6-1.6 1.3-3.2 2.3-4.9.8-1.4 1.8-3 3-4.7.9-1.3 1.8-2.7 2.7-4 1.2-1.7 2.3-3.2 3.3-4.3.4 1.6.6 3.2.8 4.7.1 1.5.2 3.9.2 7.2v1.7c0 2.6.1 4.9.2 7 .1 2.1.4 4 .8 5.8 2-.2 3.7-1.4 5.3-3.4.9-1.2 2.2-3 4-5.6 1.5-1.7 3.1-3.7 4.7-5.9 1.5-2.1 3-4.2 4.6-6.3 0 2.1-.3 4.5-1 7.4-.7 2.9-1.3 5.7-2 8.5-.6 2.8-1 5.3-1 7.5 0 1.2.1 2.4.3 3.5.2 1.1.5 2.2 1 3.3 1.6-1.6 2.8-4.7 3.7-9.3.5-3.5 1.1-7.1 1.6-10.6.5-2.7 1.1-5.4 1.7-8.3.6-2.9.9-5.5.9-7.8 0-1.8-.2-3.5-.5-5.1-1.7.3-3.3 1.6-5 3.9-1.2 1.9-2.4 3.9-3.6 5.8-2.6 4-4.3 6.5-5 7.4-2.1 2.7-4.2 4.8-6.3 6.1 0-4.9 0-8.6-.1-11.2 0-2.5-.2-5.2-.6-8.1-.1-1.2-.4-2.3-.8-3.3-.5-1.4-1.2-2.2-1.9-2.5l-.9-1z"
+          />
+          <path
+            class="st0"
+            d="M310.1 209.3c1.5.5 2.6.7 3.4.7.4 0 .8 0 1.3-.1-.3-1.8-1.5-3.1-3.4-3.8-1.4-.5-3.4-.8-6.1-.8h-4.4c-1.8 0-4.4.3-7.9 1-3.5.6-5.9 1-7.3 1 1.3-2.8 2.6-5.5 4-8.3.7-1.7 1.9-2.7 3.6-3.1 1.7-.2 3.4-.5 5.1-.7 2-.4 4.9-.8 8.7-1 3.8-.2 6-.3 6.7-.4 2.8-.4 5.2-1 7.1-1.8-.5-.8-1.2-1.3-2-1.6-.8-.3-1.9-.4-3.2-.4-.8 0-2.7.2-5.7.6-1.2.2-2.3.2-3.1.2-1.1 0-2.4.1-4 .3-3.4.5-5.6.7-6.5.7-.6 0-1.2 0-1.7-.1-.6-.1-1.1-.2-1.6-.3 2.2-4.5 4.3-7.6 6.3-9.3 2.4-2.2 5.8-3.5 10.3-4.1l9.9-.6h1.3c1 0 2.1.2 3.4.6 1.3.4 2.2.6 2.9.6.7 0 1.5-.2 2.4-.5-.5-1.5-1.5-2.7-3.2-3.4-1.4-.6-3.3-.9-5.6-.9-1.4 0-3.2.1-5.4.4-2.2.3-4.9.7-8.2 1.3-3.1.6-6.2 1.3-9.3 1.9-1.7.2-2.9 1-3.6 2.6-.6 1.5-1.1 3-1.6 4.5-3.3 7.1-6.6 14.1-9.9 21.2l-2.1 3c-.4.7-.6 1.3-.6 1.9 0 .9.1 1.5.4 1.8.2.2.6.3 1.1.3h2.3c1.2 0 2.6-.2 4.1-.7 4.1-1.3 6.3-1.9 6.6-1.9 1.5-.2 2.9-.4 4.4-.7 2.9-.4 5.4-.6 7.5-.6.8-.2 2.1 0 3.6.5z"
+          />
+          <path
+            d="M349.6 195.5c2.1-.2 3.3-.3 3.6-.4-.2-1.3-.6-2.3-1.1-2.8-.5-.5-1.1-.8-1.9-.8-.5 0-1.3.1-2.5.4-1.2.3-2 .5-2.5.6v-1c1.6-4.4 3.1-8.8 4.7-13.2.2-1.2.4-2 .7-2.4.3-.4.7-.7 1.2-.7.3 0 .7.1 1.2.2s1 .2 1.5.4c2.3.6 4.1 1.2 5.7 1.9 2 .9 3.6 2 4.9 3.3 1.3 1.3 2.3 2.5 2.9 3.6.6 1.1.9 2.3.9 3.6 0 .9-.2 1.9-.5 3.1-.6 2-1.6 4.1-3.1 6.2-1.5 2.2-3.1 4-4.9 5.4-1.8 1.4-4.2 2.9-7.3 4.3-3 1.4-5.7 2.3-7.9 2.7-.4.1-1 .2-1.9.5-.3.1-.6.1-.7.1-.3 0-.6-.1-.9-.3-.3-.2-.7-.5-1.1-1-.4-.5-.7-1.1-.7-1.8 0-.4.1-1 .2-1.5.1-.6.3-1.2.5-1.8.4-1.5 1-3 1.7-4.3 1-1.8 1.9-2.9 2.9-3.4.9-.4 2.3-.7 4.4-.9zm-13-24.8c-.1 0-2.2.4-6.3 1.2-1.6.3-2.8.5-3.6.8.1.7.3 1.4.6 2 .2.6.5 1.2.8 1.9 2.1-.7 4.1-1.2 6-1.6 2-.3 3.9-.5 5.8-.5 1.3 0 2.5.1 3.7.2 1.2.1 2.4.3 3.6.6-1.2 1.7-2.1 3.7-3 5.8-.8 2.2-1.6 4.3-2.4 6.5s-1.6 3.6-2.3 4.3c-1 .9-2.6 1.3-4.9 1.3 0 .3-.1.7-.2 1.1-.1.4-.3.9-.4 1.5.2 0 1.1.3 2.7.7 1.2.3 2.1.5 2.6.6-1.1 2.4-2.1 4.9-3.1 7.3-1.2 2.9-2 5.3-2.2 7.5-.1.6-.1 1.2-.1 1.7 0 .7.1 1.3.4 1.8.3.4.7.7 1.4.7.5 0 1-.1 1.7-.3.2-.1.4-.3.7-.7.3-.4.7-.6 1.3-.6l.6.7v.6l.6-.5h1.8c.3 0 .6 0 .9-.1 2.1-.4 4.3-1.3 6.8-2.6 1.6-.9 3.7-2.2 6.4-4.1 3-2.1 5-3.5 6-4.1 3.2-2.1 5.5-4.3 7-6.5 1.6-2.4 2.3-5.4 2.3-8.9 0-3.6-1.4-6.9-4.3-9.9-2.7-2.8-5.9-4.6-9.6-5.5-2.8-.7-5.4-1.2-7.8-1.5-2.4-.3-5.1-.4-8.1-.4-.4 0-1.2-.1-2.4-.3-1.2-.2-1.9-.3-2.2-.3h-.8z"
+          />
+        </svg>
+      </div>
+      <div class="title1">Properties for Sale</div>
+    </div>
+
+    <!-- STORE-STARTS -->
+    <div class="container">
+      <div class="iem">
+        <div class="iem1 " data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="700">
+          <div class="pix"><img src="./pics/box1.jpg" alt="1" /></div>
+          <div class="info1">
+            <i class="fa fa-bed" aria-hidden="true">7 Beds </i>
+          </div>
+          <div class="info1">
+            <i class="fa fa-bath" aria-hidden="true"> 3 Bath rms</i>
+          </div>
+          <div class="info1 info2">
+            <i class="fa fa-home" aria-hidden="true"> 3,025 sqft</i>
+          </div>
+
+          <div class="detail1">
+            <div class="para">
+              <h6>Flat 60, Ross Green, South Lilyberg, Q7M 8ZV</h6>
+              <p class="space">
+                Milan, Italy
+              </p>
+              <p>Agency: Real Estate State</p>
+
+              <p>Posted: 12 days ago</p>
+            </div>
+          </div>
+
+          <div class="mny">
+            <div class="mn1">
+              <div class="money">$14,999/mo</div>
+              <div class="money">
+                <a href="#">
+                  <i class="fa fa-compress" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="money moneyi">
+                <a href="#">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="see">
+            <h5>
+              See Details <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </h5>
+          </div>
+        </div>
+      </div>
+      <!-- Box-2 -->
+
+      <div class="iem">
+        <div class="iem1 " data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+          <div class="pix"><img src="./pics/box4.jpg" alt="2" /></div>
+          <div class="info1">
+            <i class="fa fa-bed" aria-hidden="true " title="Add to Compare"
+              >7 Beds
+            </i>
+          </div>
+          <div class="info1">
+            <i class="fa fa-bath" aria-hidden="true"> 3 Bath rms</i>
+          </div>
+          <div class="info1 info2">
+            <i class="fa fa-home" aria-hidden="true"> 3,025 sqft</i>
+          </div>
+
+          <div class="detail1">
+            <div class="para">
+              <h6>Flat 60, Ross Green, South Lilyberg,   Q7M 8ZV</h6>
+              <p class="space">
+                Milan, Italy
+              </p>
+              <p>Agency: Real Estate State</p>
+              <p>Posted: 12 days ago</p>
+            </div>
+          </div>
+
+          <div class="mny">
+            <div class="mn1">
+              <div class="money">$14,999/mo</div>
+              <div class="money">
+                <a href="#">
+                  <i class="fa fa-compress" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="money moneyi">
+                <a href="#">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="see">
+            <h5>
+              See Details
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box-3 -->
+
+      <div class="iem">
+        <div class="iem1" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="700">
+          <div class="pix"><img src="./pics/box3.jpg" alt="3" /></div>
+          <div class="info1">
+            <i class="fa fa-bed" aria-hidden="true">7 Beds </i>
+          </div>
+          <div class="info1">
+            <i class="fa fa-bath" aria-hidden="true"> 3 Bath rms</i>
+          </div>
+          <div class="info1 info2">
+            <i class="fa fa-home" aria-hidden="true"> 3,025 sqft</i>
+          </div>
+
+          <div class="detail1">
+            <div class="para">
+              <h6>Flat 60, Ross Green, South Lilyberg, Q7M 8ZV</h6>
+
+              <p class="space">span Milan, Italy</p>
+              <p>Agency: Real Estate State</p>
+              <p>Posted: 12 days ago</p>
+            </div>
+          </div>
+
+          <div class="mny">
+            <div class="mn1">
+              <div class="money">$14,999/mo</div>
+              <div class="money">
+                <a href="#">
+                  <i class="fa fa-compress" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="money moneyi">
+                <a href="#">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="see">
+            <h5>
+              See Details <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </h5>
+          </div>
+        </div>
+      </div>
+<!-- box-4 -->
+      <div class="iem">
+        <div class="iem1"  data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="1000"  >
+          <div class="pix"><img src="./pics/box2.jpg" alt="box4" /></div>
+          <div class="info1">
+            <i class="fa fa-bed" aria-hidden="true">7 Beds </i>
+          </div>
+          <div class="info1">
+            <i class="fa fa-bath" aria-hidden="true"> 3 Bath rms</i>
+          </div>
+          <div class="info1 info2">
+            <i class="fa fa-home" aria-hidden="true"> 3,025 sqft</i>
+          </div>
+
+          <div class="detail1">
+            <div class="para">
+              <h6>Flat 60, Ross Green, South Lilyberg, Q7M 8ZV</h6>
+
+              <p class="space">span Milan, Italy</p>
+              <p>Agency: Real Estate State</p>
+              <p>Posted: 12 days ago</p>
+            </div>
+          </div>
+
+          <div class="mny">
+            <div class="mn1">
+              <div class="money">$14,999/mo</div>
+              <div class="money">
+                <a href="#">
+                  <i class="fa fa-compress" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="money moneyi">
+                <a href="#">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="see">
+            <h5>
+              See Details <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="iem">5</div> -->
+    </div>
+    <div class="main" >
+      
+      <div class="about">
+        <p class="head" data-aos="fade-up"data-aos-anchor-placement="top-bottom">
+          Our goal - is your peacefulness and confidence.
+        </p>
+        <p class="pg" data-aos="fade-up"" data-aos-anchor-placement="top-bottom">
+          Unify Real Estate's inspired range of residential communities offers
+          comfortable and family-friendly living. The communities within Unify
+          Real Estate meet all the needs of their residents with amenities like
+          schools, shopping malls, nurseries and healthcare. Together, these
+          communities are part of our vision to create a sprawling haven in
+          which growing families can live, work and play.
+        </p>
+
+        <div class="icon" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
+          <div class="icon1">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <p class="head2"">WE FIND THE BEST </p>
+            <p class="head3">options only according to your preferences</p>
+          </div>
+          <div class="icon1">
+            <i class="fa fa-address-card-o" aria-hidden="true"></i>
+            <p class="head2">WE CHECK</h5>
+            <p class="head3">all legal issues when concluding a transaction</p>
+          </div>
+          <div class="icon1">
+            <i class="fa fa-gift" aria-hidden="true"></i>
+            <p class="head2">BONUSES</h5>
+            <p class="head3">pleasant gifts and bonuses to each client</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="title2" data-aos="zoom-ou-up" data-aos-duration="2000"><img src="https://img.icons8.com/nolan/64/work-from-home.png"/><p>Properties For Rent</p></div>
+    
+
+    <div class="container2">
+      <div class="iem">
+        <div class="iem1" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="700">
+          <div class="pix"><img src="./pics/box1.jpg" alt="1" /></div>
+          <div class="info1">
+            <i class="fa fa-bed" aria-hidden="true">7 Beds </i>
+          </div>
+          <div class="info1">
+            <i class="fa fa-bath" aria-hidden="true"> 3 Bath rms</i>
+          </div>
+          <div class="info1 info2">
+            <i class="fa fa-home" aria-hidden="true"> 3,025 sqft</i>
+          </div>
+
+          <div class="detail1">
+            <div class="para">
+              <h6>Flat 60, Ross Green, South Lilyberg, Q7M 8ZV</h6>
+              <p class="space">
+                Milan, Italy
+              </p>
+              <p>Agency: Real Estate State</p>
+
+              <p>Posted: 12 days ago</p>
+            </div>
+          </div>
+
+          <div class="mny">
+            <div class="mn1">
+              <div class="money">$14,999/mo</div>
+              <div class="money">
+                <a href="#">
+                  <i class="fa fa-compress" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="money moneyi">
+                <a href="#">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="see">
+            <h5>
+              See Details <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </h5>
+          </div>
+        </div>
+      </div>
+      <!-- Box-2 -->
+
+      <div class="iem">
+        <div class="iem1" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="700">
+          <div class="pix"><img src="./pics/box3.jpg" alt="2" /></div>
+          <div class="info1">
+            <i class="fa fa-bed" aria-hidden="true " title="Add to Compare"
+              >7 Beds
+            </i>
+          </div>
+          <div class="info1">
+            <i class="fa fa-bath" aria-hidden="true"> 3 Bath rms</i>
+          </div>
+          <div class="info1 info2">
+            <i class="fa fa-home" aria-hidden="true"> 3,025 sqft</i>
+          </div>
+
+          <div class="detail1">
+            <div class="para">
+              <h6>Flat 60, Ross Green, South Lilyberg, Q7M 8ZV</h6>
+              <p class="space">
+                Milan, Italy
+              </p>
+              <p>Agency: Real Estate State</p>
+              <p>Posted: 12 days ago</p>
+            </div>
+          </div>
+
+          <div class="mny">
+            <div class="mn1">
+              <div class="money">$14,999/mo</div>
+              <div class="money">
+                <a href="#">
+                  <i class="fa fa-compress" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="money moneyi">
+                <a href="#">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="see">
+            <h5>
+              See Details
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- Box-3 -->
+
+      <div class="iem">
+        <div class="iem1" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="700">
+          <div class="pix"><img src="./pics/box2.jpg" alt="3" /></div>
+          <div class="info1">
+            <i class="fa fa-bed" aria-hidden="true">7 Beds </i>
+          </div>
+          <div class="info1">
+            <i class="fa fa-bath" aria-hidden="true"> 3 Bath rms</i>
+          </div>
+          <div class="info1 info2">
+            <i class="fa fa-home" aria-hidden="true"> 3,025 sqft</i>
+          </div>
+
+          <div class="detail1">
+            <div class="para">
+              <h6>Flat 60, Ross Green, South Lilyberg, Q7M 8ZV</h6>
+
+              <p class="space">span Milan, Italy</p>
+              <p>Agency: Real Estate State</p>
+              <p>Posted: 12 days ago</p>
+            </div>
+          </div>
+
+          <div class="mny">
+            <div class="mn1">
+              <div class="money">$14,999/mo</div>
+              <div class="money">
+                <a href="#">
+                  <i class="fa fa-compress" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="money moneyi">
+                <a href="#">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="see">
+            <h5>
+              See Details <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </h5>
+          </div>
+        </div>
+      </div>
+<!-- box4 -->
+      <div class="iem">
+        <div class="iem1" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="700">
+          <div class="pix"><img src="./pics/box4.jpg" alt="box4" /></div>
+          <div class="info1">
+            <i class="fa fa-bed" aria-hidden="true">7 Beds </i>
+          </div>
+          <div class="info1">
+            <i class="fa fa-bath" aria-hidden="true"> 3 Bath rms</i>
+          </div>
+          <div class="info1 info2">
+            <i class="fa fa-home" aria-hidden="true"> 3,025 sqft</i>
+          </div>
+
+          <div class="detail1">
+            <div class="para">
+              <h6>Flat 60, Ross Green, South Lilyberg, Q7M 8ZV</h6>
+
+              <p class="space">span Milan, Italy</p>
+              <p>Agency: Real Estate State</p>
+              <p>Posted: 12 days ago</p>
+            </div>
+          </div>
+
+          <div class="mny">
+            <div class="mn1">
+              <div class="money">$14,999/mo</div>
+              <div class="money">
+                <a href="#">
+                  <i class="fa fa-compress" aria-hidden="true"></i>
+                </a>
+              </div>
+              <div class="money moneyi">
+                <a href="#">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="see">
+            <h5>
+              See Details <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </h5>
+          </div>
+        </div>
+      </div>
+<!-- box4 -->
+<div class="iem">
+  <div class="iem1" data-aos="fade-up"
+  data-aos-anchor-placement="center-bottom" data-aos-duration="700">
+    <div class="pix"><img src="./pics/box4.jpg" alt="box4" /></div>
+    <div class="info1">
+      <i class="fa fa-bed" aria-hidden="true">7 Beds </i>
+    </div>
+    <div class="info1">
+      <i class="fa fa-bath" aria-hidden="true"> 3 Bath rms</i>
+    </div>
+    <div class="info1 info2">
+      <i class="fa fa-home" aria-hidden="true"> 3,025 sqft</i>
+    </div>
+
+    <div class="detail1">
+      <div class="para">
+        <h6>Flat 60, Ross Green, South Lilyberg, Q7M 8ZV</h6>
+
+        <p class="space">span Milan, Italy</p>
+        <p>Agency: Real Estate State</p>
+        <p>Posted: 12 days ago</p>
+      </div>
+    </div>
+
+    <div class="mny">
+      <div class="mn1">
+        <div class="money">$14,999/mo</div>
+        <div class="money">
+          <a href="#">
+            <i class="fa fa-compress" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="money moneyi">
+          <a href="#">
+            <i class="fa fa-heart-o" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="see">
+      <h5>
+        See Details <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </h5>
+    </div>
+  </div>
+</div>
+<!-- box6 -->
+<div class="iem">
+  <div class="iem1" data-aos="fade-up"
+  data-aos-anchor-placement="center-bottom" data-aos-duration="700">
+    <div class="pix"><img src="./pics/box4.jpg" alt="box4" /></div>
+    <div class="info1">
+      <i class="fa fa-bed" aria-hidden="true">7 Beds </i>
+    </div>
+    <div class="info1">
+      <i class="fa fa-bath" aria-hidden="true"> 3 Bath rms</i>
+    </div>
+    <div class="info1 info2">
+      <i class="fa fa-home" aria-hidden="true"> 3,025 sqft</i>
+    </div>
+
+    <div class="detail1">
+      <div class="para">
+        <h6>Flat 60, Ross Green, South Lilyberg, Q7M 8ZV</h6>
+
+        <p class="space">span Milan, Italy</p>
+        <p>Agency: Real Estate State</p>
+        <p>Posted: 12 days ago</p>
+      </div>
+    </div>
+
+    <div class="mny">
+      <div class="mn1">
+        <div class="money">$14,999/mo</div>
+        <div class="money">
+          <a href="#">
+            <i class="fa fa-compress" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="money moneyi">
+          <a href="#">
+            <i class="fa fa-heart-o" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="see">
+      <h5>
+        See Details <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </h5>
+    </div>
+  </div>
+</div>
+      <!-- <div class="iem">5</div> -->
+    </div>
+
+<!-- box1 -->
+    <!-- <div class="review">
+      <div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i>
+      </div>
+      <p class="part1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, minima.</p>
+     <p class="rev">Call Us <button class="one">9200112288</button> OR  <button class="two">Email Us</button> </p> 
+    </div> -->
+
+
+    <div class="cont21">
+      <div class="material">
+        <h5>What my clients say</h5>
+        <h1>TESTIMONIALS</h1>
+        <p>
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+                 Sandra’s 90 day challenge put me back in the gym on a consistent basis. <br> I eat clean and listen to her nutritional advice
+           about how much protein, <br> fat and carbs to eat. I have enjoyed increased flexibility, increased strength,<br> better muscle
+           tone, better balance, better sleeping, and a happier life.<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+            <h6>John Nelson <br>
+            (client)</h6>
+      </div>
+    
+    </div>
+    <div class="bgc">
+      <!-- <img src="./pics/bg2.jpg"  class="moo" alt="sdccd"> -->
+  <form id="contactt">
+    
+    <div class="container112">
+      <div class="head112">
+        <h2>Say Hello</h2>
+      </div>
+      <input type="text" name="name" placeholder="Name" /><br />
+      <input  type="email" name="email" placeholder="Email" /><br />
+      <textarea type="text" name="message" placeholder="Message"></textarea><br />
+      <div class="message">Message Sent</div>
+      <button class="batan" id="submit" type="submit">
+        Send! 
+      </button>
+    </div>
+  </form>
+  <div class="conn">
+    <div class="infoo2">
+      <div class="line">
+        <img
+          src="https://img.icons8.com/dusk/64/000000/home-automation.png"
+        />
+        <div class="sec2">
+          <p class="h1">Don’t miss a thing</p>
+          <p class="parag">
+            Save your dream homes and stay updated on your favourite searches,
+            across any device.
+          </p>
+        </div>
+      </div>
+      <div class="line">
+        <img src="https://img.icons8.com/cotton/64/000000/hearts--v3.png" />
+        <div class="sec2">
+          <p class="h1">Don’t miss a thing</p>
+          <p class="parag">
+            Save your dream homes and stay updated on your favourite searches,
+            across any device.
+          </p>
+        </div>
+      </div>
+      <div class="line">
+        <img
+          src="data:image/png;base64,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"
+        />
+        <div class="sec2">
+          <p class="h1">Don’t miss a thing</p>
+          <p class="parag">
+            Save your dream homes and stay updated on your favourite searches,
+            across any device.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+    
+  
+  <!-- Footer-starts -->
+
+  <footer>
+    <div class="foot">
+      <div class="col col1">
+        <h2>find us</h2>
+        <p class="in" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <p class="per1"> 9878/25 sec 9 rohini 35</p>
+        <p class="per1"> +91-9999878398</p>
+        <p class="per1"> info@example.com</p>
+      </div>
+      <div class="col col2">
+        <h2>find us</h2>
+        <ul>
+          <li><a href="#">Lorem ispum</a></li>
+          <li><a href="#">Lorem ispum</a></li>
+          <li><a href="#">Lorem ispum</a></li>
+          <li><a href="#">Lorem ispum</a></li>
+          <li><a href="#">Lorem ispum</a></li>
+        </ul>
+      </div>
+      <div class="col col3">
+        <h2>find us</h2>
+        <ul>
+          <li><a href="#"> Lorem ispum </a></li>
+          <li><a href="#">Lorem ispum isposo</a></li>
+          <li><a href="#">Lorem ispum ismdmdm</a></li>
+          <li><a href="#">Lorem ispum dwdwd</a></li>
+          <li><a href="#">Lorem ispum sdd</a></li>
+        </ul></div>
+      <div class="col col4">
+        <h2>find us</h2>
+        <p class="social">Lorem Ipsum is simply dummy text of the printing.. <a href="#">.https://www.google.com/</a></p>
+        <p class="social">Lorem Ipsum is simply dummy text of the printing.. <a href="#">.https://www.google.com/</a></p>
+        <p class="social">Lorem Ipsum is simply dummy text of the printing.. <a href="#">.https://www.google.com/</a></p>
+      </div>
+    </div>
+    <div class="mid">
+    <div class="footerbtm">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <p class="license">Copyright @2020 | Designed by <a href="https://www.instagram.com/akhanno/?hl=en"> Ahsan Khan afridi</a>.</p>
+      <div class="social-media">
+        <div class="fb"><a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+        <div class="tw"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+        <div class="ig"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+        <div class="yt"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
+        
+     </div>
+    </div></div>
+  </footer>
+
+  
+ 
+  <script src="./contact.js"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+       
+      });
+    </script>
+  </body>
+</html>
