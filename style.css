@@ -186,43 +186,66 @@ nav {
   body {
     overflow-x: hidden;
   }
+}
+
+@media screen and (max-width: 568px) {
   .btn button {
     margin-right: 60px;
   }
-  .links {
-    position: absolute;
-    right: 0;
-    top: 8vh;
-    height: 92vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 50%;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-    -webkit-transition: -webkit-transform 0.9s ease;
-    transition: -webkit-transform 0.9s ease;
-    transition: transform 0.9s ease;
-    transition: transform 0.9s ease, -webkit-transform 0.9s ease;
-    opacity: 0;
+  .btn .btn-22 {
+    display: none;
   }
-  .links li {
-    opacity: 0;
+}
+
+@media screen and (min-width: 568px) and (max-width: 1600px) {
+  header #btn-22 {
+    display: none;
   }
-  .links a {
-    font-size: 16px;
-  }
-  .burger {
-    display: block;
-    position: absolute;
-    right: 20px;
+}
+
+.links {
+  position: absolute;
+  right: 0;
+  top: 8vh;
+  height: 92vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  -webkit-transition: -webkit-transform 0.9s ease;
+  transition: -webkit-transform 0.9s ease;
+  transition: transform 0.9s ease;
+  transition: transform 0.9s ease, -webkit-transform 0.9s ease;
+  opacity: 0;
+}
+
+.links li {
+  opacity: 0;
+}
+
+.links a {
+  font-size: 16px;
+}
+
+.burger {
+  display: block;
+  position: absolute;
+  right: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 432px) {
+  header .heading .btn-22 {
+    margin-top: 40px;
+    width: 100px;
   }
 }
 
@@ -242,6 +265,32 @@ nav {
     position: relative;
     bottom: 70px;
     right: 20px;
+  }
+  header .heading .btn-22 {
+    padding: 5px 10px;
+    width: 125px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 60px;
+    top: 29px;
+    background-color: #fbff00;
+    -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+    outline: none;
+    cursor: pointer;
+    z-index: 923;
+  }
+  header .heading .btn-22:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  header .heading .btn-22 a {
+    text-decoration: none;
+    word-spacing: 2px;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    color: #616161;
   }
   header #search {
     display: none;
@@ -270,6 +319,15 @@ nav {
   }
 }
 
+@media (min-width: 300px) and (max-width: 380px) {
+  header .heading .btn-22 {
+    margin-top: 80px;
+    position: relative;
+    right: -11px;
+    top: -101px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   header .heading h1 {
     font-size: 40px;
@@ -291,7 +349,7 @@ nav {
     width: 300px;
     height: 45px;
     position: relative;
-    top: 590px;
+    top: 530px;
     left: 30px;
   }
   header nav {
@@ -351,7 +409,7 @@ nav {
     width: 290px;
     height: 35px;
     position: relative;
-    top: 580px;
+    top: 480px;
     left: 20px;
   }
 }
@@ -361,7 +419,7 @@ nav {
     width: 390px;
     height: 35px;
     position: relative;
-    top: 780px;
+    top: 480px;
     left: 20px;
   }
 }
@@ -407,16 +465,12 @@ nav {
   }
 }
 
-@media (min-width: 280px) and (max-width: 653px) {
+@media (min-width: 250px) and (max-width: 768px) {
   header nav .btn {
     display: none;
   }
   header #search {
-    width: 190px;
-    height: 35px;
-    position: relative;
-    top: 550px;
-    left: 20px;
+    display: none;
   }
 }
 
@@ -1568,10 +1622,7 @@ form {
     width: 90%;
   }
   button {
-    width: 90%;
-  }
-  body {
-    padding-top: 10px;
+    width: 25%;
   }
 }
 
@@ -1838,6 +1889,14 @@ footer .footerbtm .license a {
     height: 30px;
     width: 30px;
     padding-top: 9px;
+  }
+}
+
+@media (max-width: 1024px) {
+  header .heading #search {
+    position: relative;
+    top: 130px;
+    left: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */

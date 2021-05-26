@@ -293,7 +293,8 @@ button:hover {
         grid-template-columns: 1fr;
   }
   .cont .infoo1 {
-    margin: auto;
+    margin: autos;
+    height: 30vh;
   }
   .cont .infoo2 .line {
     margin-left: 50px;
@@ -393,7 +394,7 @@ button:hover {
     width: 95%;
   }
   .cont .infoo1 {
-    height: 46vh;
+    height: 30vh;
   }
 }
 
@@ -415,8 +416,7 @@ button:hover {
         grid-template-columns: 1fr;
   }
   .cont .infoo1 {
-    margin: auto;
-    padding-bottom: 45px;
+    margin: autso;
   }
   .cont .infoo2 .line {
     margin: 0px;
